@@ -1,0 +1,28 @@
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-smjc4[0m
+{"level":"info","ts":1594258072.8912265,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
+{"level":"info","ts":1594258072.8915539,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-247sc[0m
+{"level":"info","ts":1594258076.0107963,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1594258076.0133274,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-explore-jenkinsx-chi-master-tpdhz-sg4t7[0m
+{"level":"info","ts":1594258109.8338487,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/refs/heads/0.8.0-ns-support: no such file or directory"}
+{"level":"info","ts":1594258110.1520686,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/explore-jenkinsx/chi.git @ v4.1.3 in path /workspace/source"}
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-builder-home[0m
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:e4d055a3440195b10e720deec5a460eeb113e70c
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Generated Git credentials file /workspace/xdg_config/git/credentials
+
+Showing logs for build [32mexplore-jenkinsx-chi-master-tpdhz-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-make-build[0m
+make: *** No rule to make target `build'.  Stop.
+[31m
+Pipeline failed on stage 'from-build-pack' : container 'step-build-make-build'. The execution of the pipeline has stopped.[0m
